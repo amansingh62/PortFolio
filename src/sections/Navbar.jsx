@@ -103,7 +103,7 @@ function Navbar() {
         <div ref={contactRef} className='flex flex-col flex-wrap justify-between gap-6 sm:gap-7 md:gap-8 md:flex-row'>
          <div className='font-light'>
             <p className='text-xs sm:text-sm md:text-base tracking-wider text-white/50 mb-1 sm:mb-2'>E-mail</p>
-            <p className='text-sm sm:text-lg md:text-xl tracking-wide sm:tracking-wider md:tracking-widest lowercase break-all'>coolaman6299@gmail.com</p>
+            <p className='text-sm sm:text-lg md:text-xl tracking-wide sm:tracking-wider md:tracking-widest lowercase break-all'>aman.singh62994@gmail.com</p>
          </div>
          <div className='font-light'>
             <p className='text-xs sm:text-sm md:text-base tracking-wider text-white/50 mb-2 sm:mb-3'>Social Media</p>
@@ -114,7 +114,7 @@ function Navbar() {
                     href={social.href} 
                     className='text-xs sm:text-sm md:text-base leading-loose tracking-wide sm:tracking-wider md:tracking-widest uppercase hover:text-white transition-colors duration-300'
                   >
-                    {"{"} {social.name} {"}"}
+                     {social.name}
                   </a>
                 ))}
             </div>

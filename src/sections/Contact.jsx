@@ -46,7 +46,7 @@ const Contact = () => {
               <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">E-mail</h2>
               <div className="w-full h-px my-2 bg-white/30" />
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl tracking-wider lowercase">
-                coolaman6299@gmail.com
+                aman.singh62994@gmail.com
               </p>
             </div>
            
@@ -60,9 +60,9 @@ const Contact = () => {
                     href={social.href}
                     className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl leading-loose tracking-wides uppercase hover:text-white/80 transition-colors duration-200"
                   >
-                    {"{ "}
+                  
                     {social.name}
-                    {" }"}
+                   
                   </a>
                 ))}
               </div>
