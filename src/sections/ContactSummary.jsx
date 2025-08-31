@@ -14,7 +14,7 @@ function ContactSummary() {
   return (
     <section ref={containerRef} className="flex flex-col items-center justify-between min-h-screen gap-12 mt-16"> 
     <Marquee items={items} />
-        <div className="overflow-hidden font-light text-center text-4xl">
+        <div className="overflow-hidden font-light text-center text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl">
          <p>
           "Let's build a <br />
           <span className="font-normal">memorable</span> & <span className="italic">inspiring</span> <br />

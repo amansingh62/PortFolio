@@ -43,22 +43,22 @@ const Contact = () => {
         <div className="flex px-10 font-light text-white uppercase lg:text-[32px] text-[26px] leading-none mb-10">
           <div className="flex flex-col w-full gap-10">
             <div className="social-link">
-              <h2>E-mail</h2>
+              <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">E-mail</h2>
               <div className="w-full h-px my-2 bg-white/30" />
-              <p className="text-xl tracking-wider lowercase md:text-2xl lg:text-3xl">
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl tracking-wider lowercase">
                 coolaman6299@gmail.com
               </p>
             </div>
            
             <div className="social-link">
-              <h2>Social Media</h2>
+              <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">Social Media</h2>
               <div className="w-full h-px my-2 bg-white/30" />
               <div className="flex flex-wrap gap-2">
                 {socials.map((social, index) => (
                   <a
                     key={index}
                     href={social.href}
-                    className="text-xs leading-loose tracking-wides uppercase md:text-sm hover:text-white/80 transition-colors duration-200"
+                    className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl leading-loose tracking-wides uppercase hover:text-white/80 transition-colors duration-200"
                   >
                     {"{ "}
                     {social.name}

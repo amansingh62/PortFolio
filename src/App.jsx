@@ -10,7 +10,7 @@ import Contact from './sections/Contact'
 
 function App() {
   return (
-    <ReactLenis root className='relative w-screen min-h-screen overflow-x-auto'>
+    <ReactLenis root className='relative w-screen min-h-screen overflow-x-hidden'>
       <Navbar />
       <Hero />
       <ServiceSummary />

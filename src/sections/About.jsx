@@ -56,7 +56,8 @@ Core Skills
           alt="man"
           className="w-md rounded-3xl "
         />
-        <AnimatedTextLines text={aboutText} className={"w-full"} />
+        <AnimatedTextLines text={aboutText}   className={"w-full text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-relaxed sm:leading-loose"} 
+ />
       </div>
     </section>
   );
