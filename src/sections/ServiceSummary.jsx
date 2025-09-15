@@ -39,7 +39,8 @@ function ServiceSummary() {
     });
 
   return (
-    <section className="mt-20 overflow-hidden font-light leading-snug text-center mb-42 text-2xl md:text-4xl lg:text-6xl">
+    <section className="relative mt-20 overflow-hidden font-light leading-snug text-center mb-42 text-2xl md:text-4xl lg:text-6xl service-gradient service-spotlight">
+     <div className="absolute inset-0 service-grid"></div>
      <div id="title-service-1">
         <p>Architecture</p>
      </div>

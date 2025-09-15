@@ -100,12 +100,18 @@ const Works = () => {
   };
 
   return (
-    <section id="work" className="flex flex-col min-h-screen">
+    <section id="work" className="relative flex flex-col min-h-screen hero-gradient">
+      <div className="absolute inset-0 hero-grid"></div>
+      <div className="blob-layer">
+        <span className="blob blob-blue"></span>
+        <span className="blob blob-pink"></span>
+        <span className="blob blob-amber"></span>
+      </div>
       <AnimatedHeaderSection
         subTitle={"Logic meets Aesthetics, Seamlessly"}
         title={"Works"}
         text={text}
-        textColor={"text-black"}
+        textColor={"text-gray-900"}
         withScrollTrigger={true}
       />
       <div
